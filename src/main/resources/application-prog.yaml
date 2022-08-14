@@ -1,0 +1,15 @@
+datasources:
+  hikari-base:
+    connectionTimeout: 30001
+    idleTimeout: 600001
+    maxLifetime: 1800001
+  datasource-one:
+    username: "username-set-dynamically-in-test"
+    password: "password-set-dynamically-in-test"
+    jdbcUrl: "url-set-dynamically-in-test"
+    poolName: "one"
+  datasource-two:
+    username: "username-set-dynamically-in-test"
+    password: "password-set-dynamically-in-test"
+    jdbcUrl: "url-set-dynamically-in-test"
+    poolName: "two"
